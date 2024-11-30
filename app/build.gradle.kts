@@ -25,14 +25,20 @@ android {
             keyAlias = "androiddebugkey"
             keyPassword = "android"
         }
+        create("platform") {
+            storeFile = rootProject.file("keys/platform.keystore")
+            storePassword = "password"
+            keyAlias = "platform"
+            keyPassword = "password"
+        }
     }
 
     buildTypes {
         getByName("debug") {
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.getByName("platform")
         }
         getByName("release") {
-            signingConfig = signingConfigs.getByName("debug") // Use debug signing config for release
+            signingConfig = signingConfigs.getByName("platform") // Use debug signing config for release
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
