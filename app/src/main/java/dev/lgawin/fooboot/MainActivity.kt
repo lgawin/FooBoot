@@ -1,4 +1,4 @@
-package dev.lgawin.foboot
+package dev.lgawin.fooboot
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,7 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import dev.lgawin.foboot.ui.theme.FooBootTheme
+import dev.lgawin.fooboot.ui.theme.FooBootTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package dev.lgawin.foboot
+package dev.lgawin.fooboot
 
 import org.junit.Test
 

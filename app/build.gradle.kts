@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "dev.lgawin.foboot"
+    namespace = "dev.lgawin.fooboot"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "dev.lgawin.foboot"
+        applicationId = "dev.lgawin.fooboot"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

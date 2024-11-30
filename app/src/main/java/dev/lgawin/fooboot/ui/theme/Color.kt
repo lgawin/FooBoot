@@ -1,4 +1,4 @@
-package dev.lgawin.foboot.ui.theme
+package dev.lgawin.fooboot.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
