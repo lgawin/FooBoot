@@ -1,0 +1,4 @@
+android_app_import {
+    name: "FooBoot",
+    apk: "FooBoot.apk",
+}
