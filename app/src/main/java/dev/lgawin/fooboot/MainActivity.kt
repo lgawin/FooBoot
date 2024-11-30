@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
                         )
                 ) { innerPadding ->
                     Greeting(
-                        name = "FooBoot",
+                        name = "FooBoot, v${BuildConfig.VERSION_NAME}",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }

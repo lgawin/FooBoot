@@ -7,6 +7,6 @@ class FooApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        Log.d("gawluk", "onCreate")
+        Log.d("gawluk", "onCreate, application version: " + BuildConfig.VERSION_NAME)
     }
 }
