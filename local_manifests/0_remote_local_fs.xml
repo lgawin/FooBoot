@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remoh name="local-fs" fetch=##LOCAL_FS_ROOT## />
+    <remote name="local-fs" fetch="##LOCAL_FS_ROOT##" revision="main" />
 </manifest>

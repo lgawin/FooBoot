@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="vendor/foqus/FooBoot" name="FooBoot" remote="local-fs" revision="main" />
+    <project path="vendor/foqus/FooBoot" name="FooBoot" remote="local-fs" />
 </manifest>
