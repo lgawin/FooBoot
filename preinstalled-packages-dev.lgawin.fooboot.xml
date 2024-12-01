@@ -1,0 +1,5 @@
+<config>
+    <install-in-user-type package="dev.lgawin.fooboot">
+        <install-in user-type="FULL" />
+    </install-in-user-type>
+</config>

@@ -3,4 +3,13 @@ android_app_import {
     apk: "FooBoot.apk",
     certificate : "platform",
     privileged: true,
+    required: [
+        "preinstalled-packages-dev.lgawin.fooboot.xml",
+    ],
+}
+
+prebuilt_etc {
+    name: "preinstalled-packages-dev.lgawin.fooboot.xml",
+    src: "preinstalled-packages-dev.lgawin.fooboot.xml",
+    sub_dir: "sysconfig",
 }
