@@ -2,7 +2,6 @@ android_app_import {
     name: "FooBoot",
     apk: "FooBoot.apk",
     certificate : "platform",
-    privileged: true,
     required: [
         "preinstalled-packages-dev.lgawin.fooboot.xml",
     ],
