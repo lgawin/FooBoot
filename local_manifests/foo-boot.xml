@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="vendor/foqus/FooBoot" name="FooBoot" remote="local-fs" />
+    <remote name="github-lgawin" fetch="https://github.com/lgawin" revision="main" />
+    <project path="vendor/foqus/FooBoot" name="FooBoot" remote="github-lgawin" />
 </manifest>

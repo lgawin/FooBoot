@@ -1,1 +1,2 @@
 *.apk filter=lfs diff=lfs merge=lfs -text
+FooBoot.apk filter=lfs diff=lfs merge=lfs -text
