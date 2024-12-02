@@ -24,7 +24,25 @@ Sync sources, at least this project, e.g.
 repo sync vendor/foqus/FooBoot
 ```
 
+### add project to target
+
+In your target's `.mk` file add `FooBoot` to product packages
+
+```
+PRODUCT_PACKAGES += FooBoot
+```
+
 ## Building
+
+Follow build instructions for AOSP, so
+
+```shell
+. build/envsetup.sh
+lunch <YOUR_TARGET>
+m
+```
+
+To verify only project setup, you can call
 
 ```shell
 mmm vendor/foqus/FooBoot
